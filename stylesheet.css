@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bodoni Moda', serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.navhover:hover{
+    color: grey;
+    transition-duration: 2s;
+    font-size: 17px;
+    
+}
+.mainbodybox{
+    background: url(https://i.pinimg.com/originals/cd/83/e3/cd83e34992570d14493c163c3ff3d42d.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerbox{
+    margin-top: 5rem;
+}
+.imagebox{
+    margin-top: -5rem;
+}
+
+.scroll-downs {
+    
+    
+    margin: auto;
+    width :34px;
+    height: 55px;
+  }
+  .mousey {
+    width: 3px;
+    padding: 10px 15px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+  }
+  .scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+  }
+  .scrollbar{
+    color: #fff;
+    text-decoration: none;
+    font-style: none;
+    animation-name: scroll;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+  }
+  .under{
+    text-decoration: none;
+  }
+  @keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+  }
+  .try{
+    display: inline-block;
+    width: 55vw;
+    height: 80vh;
+    background-color: rgb(255,220,57);
+    position: relative;
+   margin-top: 0%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%; 
+  }
+  .toppp{
+    position: absolute;
+    top: 10%;
+    margin-left: auto;
+    margin-top: 2%;
+  }
+  
+  .indexing{
+    position:relative;
+    z-index: 4;
+    left: 5%;
+    top: 1%;
+    display: inline;
+    background-color: #777777;
+    border-radius: 15px;
+    margin-left: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .testi-snippet{
+    font-size: 15px;
+    line-height: 1.8;
+    color: #777777;
+    padding: 15px 0;
+    margin: 0;
+    font-style: italic;
+    font-family: monospace;
+    letter-spacing: 0.5px;
+  }
+  .testi-snippet::before{
+    content: '\f10d';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 5px;
+    color: #f9c747;
+  }
+  .testimodal{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wecanhelpboxcontent{
+    margin-top: 10%;
+  }
+  .agebox{
+    background: url(https://i.pinimg.com/originals/11/eb/ec/11ebecc7ef79b915f6ee2ca33a5b526a.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-origin: border-box;
+    height: 80vh;
+  }
+  .ooprt{
+    margin-top: 20%;
+  }
+  .liner{
+    width: 1px;
+    height: 500px;
+    background-color: black;
+  }
